@@ -26,7 +26,7 @@ const About = props => {
       <h2>Sam Chillcott</h2>
 
       <div className={aboutStyle.main}>
-        <div className={aboutStyle.izquierda}>
+        {/* <div className={aboutStyle.izquierda}>
           <div className={aboutStyle.imagen}>
             {" "}
             <Img
@@ -52,7 +52,7 @@ const About = props => {
               <p>English, Spanish, Portuguese and Latin</p>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className={aboutStyle.derecha}>
           <p>
             Healthy float waves wrap gnarley Trestles oil water indy? Clamped
@@ -67,7 +67,7 @@ const About = props => {
           </p>
 
           <div className={aboutStyle.logoContainer}>
-            <p>Some of the tech I like:</p>
+            <p>Skills</p>
             <img
               alt="javascript"
               className={aboutStyle.logo}
@@ -89,16 +89,6 @@ const About = props => {
               src="./logos/react.svg"
             />
             <img
-              alt="nodeJs"
-              className={aboutStyle.logo}
-              src="./logos/nodejs-icon.svg"
-            />
-            <img
-              alt="Mongo"
-              className={aboutStyle.logo}
-              src="./logos/mongodb.png"
-            />
-            <img
               alt="Sass"
               className={aboutStyle.logo}
               src="./logos/sass-1.svg"
@@ -106,7 +96,7 @@ const About = props => {
           </div>
 
           <div className={aboutStyle.socialContainer}>
-            <p>Send me a message!</p>
+            <p>Contact Me</p>
             <a
               className={aboutStyle.social}
               href="https://github.com/martin2844"
@@ -119,19 +109,7 @@ const About = props => {
             >
               <i className="fab fa-instagram"></i>
             </a>
-            <a
-              className={aboutStyle.social}
-              href="https://www.youtube.com/channel/UC9nNIxlNohIoIrjtC4ueIOA"
-            >
-              <i className="fab fa-youtube"></i>
-            </a>
-            <a
-              className={aboutStyle.social}
-              href="https://www.twitter.com/codigomate"
-            >
-              <i class="fab fa-twitter"></i>
-            </a>
-          </div>
+                   </div>
         </div>
       </div>
     </Layout>

@@ -29,9 +29,6 @@ const Header = () => {
       <div className="header-main">
         <div className="dev">
           <h1>{data.site.siteMetadata.title}</h1>
-          <span className="attr">Web Developer</span>
-          <span className="dot">•</span>
-          <span className="attr">Coach</span>
         </div>
         <div className="icons">
           <a href="https://github.com/samchillcott">

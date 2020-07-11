@@ -24,17 +24,16 @@ const Header = () => {
                 <div className="header-main">
                         <div className="dev">
                         <h1>{data.site.siteMetadata.title}</h1>
-                        <span className="attr">Web designer</span>
+                        <span className="attr">Web Developer</span>
                         <span className="dot">•</span>
-                        <span className="attr">Architect</span>
-                        <span className="dot">•</span>
-                        <span className="attr">Mechanic</span>
+                        <span className="attr">Coach</span>
+                        {/* <span className="dot">•</span>
+                        <span className="attr">Mechanic</span> */}
                         </div>
                         <div className="icons">
-                        <a href='https://github.com/martin2844'><i className="fab fa-github"></i></a>
+                        <a href='https://github.com/samchillcott'><i className="fab fa-github"></i></a>
                         <a href='https://twitter.com/codigoMate'><i className="fab fa-twitter"></i></a>
-                        <a href='https://dev.to/martin2844'><i className="fab fa-dev"></i></a>
-                        <a href='https://www.linkedin.com/in/chammah/'><i className="fab fa-linkedin"></i></a>
+                        <a href='https://www.linkedin.com/in/samchillcott/'><i className="fab fa-linkedin"></i></a>
                         <a href='https://youtube.com/codigoMate'><i className="fab fa-youtube"></i></a>
                         </div>
                         <span className="pages-link"><Link to="/">Portfolio</Link>

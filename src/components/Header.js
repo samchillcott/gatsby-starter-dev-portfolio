@@ -34,14 +34,11 @@ const Header = () => {
           <a href="https://github.com/samchillcott">
             <i className="fab fa-github"></i>
           </a>
-          <a href="https://twitter.com/codigoMate">
-            <i className="fab fa-twitter"></i>
-          </a>
           <a href="https://www.linkedin.com/in/samchillcott/">
             <i className="fab fa-linkedin"></i>
           </a>
-          <a href="https://youtube.com/codigoMate">
-            <i className="fab fa-youtube"></i>
+          <a href="https://www.instagram.com/samchillcott/">
+            <i className="fab fa-instagram"></i>
           </a>
         </div>
         <span className="pages-link">

@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
 import aboutStyle from "./About.module.scss"
-import Img from "gatsby-image"
 import { graphql } from "gatsby"
 
 export const query = graphql`
@@ -23,8 +22,6 @@ const About = props => {
   console.log(query)
   return (
     <Layout>
-      <h2>Sam Chillcott</h2>
-
       <div className={aboutStyle.main}>
         {/* <div className={aboutStyle.izquierda}>
           <div className={aboutStyle.imagen}>
@@ -109,7 +106,7 @@ const About = props => {
             >
               <i className="fab fa-instagram"></i>
             </a>
-                   </div>
+          </div>
         </div>
       </div>
     </Layout>

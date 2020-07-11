@@ -96,13 +96,13 @@ const About = props => {
             <p>Contact Me</p>
             <a
               className={aboutStyle.social}
-              href="https://github.com/martin2844"
+              href="https://github.com/martin2844" target="_blank"
             >
-              <i className="fab fa-github"></i>
+              <i className="fa fa-envelope"></i>
             </a>
             <a
               className={aboutStyle.social}
-              href="https://www.instagram.com/codigo.mate/"
+              href="https://www.instagram.com/samchillcott/" target="_blank"
             >
               <i className="fab fa-instagram"></i>
             </a>

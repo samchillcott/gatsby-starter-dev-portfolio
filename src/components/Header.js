@@ -31,13 +31,13 @@ const Header = () => {
           <h1>{data.site.siteMetadata.title}</h1>
         </div>
         <div className="icons">
-          <a href="https://github.com/samchillcott">
+          <a href="https://github.com/samchillcott" target="_blank">
             <i className="fab fa-github"></i>
           </a>
-          <a href="https://www.linkedin.com/in/samchillcott/">
+          <a href="https://www.linkedin.com/in/samchillcott/" target="_blank">
             <i className="fab fa-linkedin"></i>
           </a>
-          <a href="https://www.instagram.com/samchillcott/">
+          <a href="https://www.instagram.com/samchillcott/" target="_blank">
             <i className="fab fa-instagram"></i>
           </a>
         </div>

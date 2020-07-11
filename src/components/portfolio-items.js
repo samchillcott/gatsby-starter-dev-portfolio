@@ -1,19 +1,20 @@
 const portfolioItems = [
     {
         title: 'Portfolio Item 1',
-        sinopsis: 'This is a pure CSS accordion. Click to open',
-        desc: 'You can put your description here. Include your github Repo. A link for a live version is optional. Include a screen cap. Or edit the format',
-        img: './portfolio/faduense.png',
-        repo: 'https://github.com/martin2844/faduense',
+        sinopsis: 'Weather App',
+        desc: 'Weather app using React, API and conditional styling.',
+        img: './portfolio/weather.png',
+        live: 'https://samchillcott.github.io/sam_react_weather_app/',
+        repo: 'https://github.com/samchillcott/sam_react_weather_app',
         idx: 1
     },
     {
         title: 'Portfolio Item 2',
-        sinopsis: 'This is just a quick description. Open up for more details',
-        desc: 'This is just a javascript array of objects. Gatsby makes the JSX elements to show up',
-        img: './portfolio/bitcoin.png',
-        live: 'bitcoinhoy.com.ar',
-        repo: 'https://github.com/martin2844',
+        sinopsis: 'Coaching Question Generator',
+        desc: 'React app to generate coaching questions',
+        img: './portfolio/coaching.png',
+        live: 'https://coachingquestions.netlify.app/',
+        repo: 'https://github.com/samchillcott/sam_react_coaching_questions',
         idx: 2
     },
     {
@@ -34,15 +35,6 @@ const portfolioItems = [
         live: 'https://my-ejs-todo-list.herokuapp.com',
         idx: 4
     },
-    {
-        title: 'Portfolio Item 5',
-        sinopsis: 'Please message me at twitter @codigoMate',
-        desc: 'I really appriciate any messages',
-        img: './portfolio/Mate.png',
-        repo: 'https://github.com/martin2844',
-        live: 'https://codigomate.com',
-        idx: 5
-    }
 
 ]
 

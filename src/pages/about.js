@@ -23,33 +23,6 @@ const About = props => {
   return (
     <Layout>
       <div className={aboutStyle.main}>
-        {/* <div className={aboutStyle.izquierda}>
-          <div className={aboutStyle.imagen}>
-            {" "}
-            <Img
-              className={aboutStyle.img}
-              fluid={props.data.file.childImageSharp.fluid}
-            />
-          </div>
-          <div className={aboutStyle.texto}>
-            <div className={aboutStyle.iconos}>
-              <i className="fas fa-map-marker-alt fa-sm"></i>
-              <p>Location, Country</p>
-            </div>
-            <div className={aboutStyle.iconos}>
-              <i className="fas fa-graduation-cap fa-sm"></i>
-              <p>University of life</p>
-            </div>
-            <div className={aboutStyle.iconos}>
-              <i className="fas fa-code fa-sm"></i>
-              <p>HTML, JS, CSS, noSQL</p>
-            </div>
-            <div className={aboutStyle.iconos}>
-              <i className="fas fa-language fa-sm"></i>
-              <p>English, Spanish, Portuguese and Latin</p>
-            </div>
-          </div>
-        </div> */}
         <div className={aboutStyle.derecha}>
           <p>
             Healthy float waves wrap gnarley Trestles oil water indy? Clamped
@@ -72,7 +45,7 @@ const About = props => {
               className={aboutStyle.logo}
               src="./logos/javascript.svg"
             />
-             <img
+            <img
               alt="React"
               className={aboutStyle.logo}
               src="./logos/react.svg"
@@ -82,12 +55,12 @@ const About = props => {
               className={aboutStyle.logo}
               src="./logos/gatsby.svg"
             />
-           <img
+            <img
               alt="Sass"
               className={aboutStyle.logo}
               src="./logos/sass.svg"
             />
-           <img
+            <img
               alt="Bootstrap"
               className={aboutStyle.logo}
               src="./logos/bootstrap.svg"
@@ -102,17 +75,13 @@ const About = props => {
               className={aboutStyle.logo}
               src="./logos/css3.svg"
             /> */}
-            <img
-              alt="Git"
-              className={aboutStyle.logo}
-              src="./logos/git.svg"
-            />
+            <img alt="Git" className={aboutStyle.logo} src="./logos/git.svg" />
             <img
               alt="GitHub"
               className={aboutStyle.logo}
               src="./logos/github.svg"
             />
-             <img
+            <img
               alt="Firebase"
               className={aboutStyle.logo}
               src="./logos/firebase.svg"

@@ -55,8 +55,10 @@ const About = props => {
             Healthy float waves wrap gnarley Trestles oil water indy? Clamped
             blonde rigs capped out socked in, blown out fresh stick healthy
             float stall, waves Taj Burrow. Fan a spray foam ball clamped rip the
-            pit shacked priority frothy top dry hair paddle out insider. Oil
-            barreling, carve crumbly lip in the bricks white water sand bar
+            pit shacked priority frothy top dry hair paddle out insider.
+          </p>
+          <p>
+            Oil barreling, carve crumbly lip in the bricks white water sand bar
             fighting for the peak. Twin fin freshie reef urll make the paddle
             layback hammer blonde rigs slob priority. Drifting the tail rinsed
             salt water pit above the lip. Stab mag, double up nice little fish
@@ -70,25 +72,50 @@ const About = props => {
               className={aboutStyle.logo}
               src="./logos/javascript.svg"
             />
-            <img
-              alt="Gatsby"
-              className={aboutStyle.logo}
-              src="./logos/gatsby.svg"
-            />
-            <img
-              alt="GraphQl"
-              className={aboutStyle.logo}
-              src="./logos/graphql.svg"
-            />
-            <img
+             <img
               alt="React"
               className={aboutStyle.logo}
               src="./logos/react.svg"
             />
             <img
+              alt="Gatsby"
+              className={aboutStyle.logo}
+              src="./logos/gatsby.svg"
+            />
+           <img
               alt="Sass"
               className={aboutStyle.logo}
-              src="./logos/sass-1.svg"
+              src="./logos/sass.svg"
+            />
+           <img
+              alt="Bootstrap"
+              className={aboutStyle.logo}
+              src="./logos/bootstrap.svg"
+            />
+            {/* <img
+              alt="HTML"
+              className={aboutStyle.logo}
+              src="./logos/html5.svg"
+            />
+            <img
+              alt="CSS"
+              className={aboutStyle.logo}
+              src="./logos/css3.svg"
+            /> */}
+            <img
+              alt="Git"
+              className={aboutStyle.logo}
+              src="./logos/git.svg"
+            />
+            <img
+              alt="GitHub"
+              className={aboutStyle.logo}
+              src="./logos/github.svg"
+            />
+             <img
+              alt="Firebase"
+              className={aboutStyle.logo}
+              src="./logos/firebase.svg"
             />
           </div>
 

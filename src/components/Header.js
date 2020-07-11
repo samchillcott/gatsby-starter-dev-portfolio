@@ -48,7 +48,7 @@ const Header = () => {
           </a>
         </div>
         <span className="pages-link">
-          <Link to="/">Portfolio</Link>| |<Link to="/about">About</Link>
+          <Link to="/">Portfolio</Link>|<Link to="/about">About</Link>
         </span>
 
         <hr />

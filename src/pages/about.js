@@ -24,22 +24,20 @@ const About = props => {
     <Layout>
       <div className={aboutStyle.main}>
         <div className={aboutStyle.derecha}>
-          <p>
-            Healthy float waves wrap gnarley Trestles oil water indy? Clamped
-            blonde rigs capped out socked in, blown out fresh stick healthy
-            float stall, waves Taj Burrow. Fan a spray foam ball clamped rip the
-            pit shacked priority frothy top dry hair paddle out insider.
-          </p>
-          <p>
-            Oil barreling, carve crumbly lip in the bricks white water sand bar
-            fighting for the peak. Twin fin freshie reef urll make the paddle
-            layback hammer blonde rigs slob priority. Drifting the tail rinsed
-            salt water pit above the lip. Stab mag, double up nice little fish
-            kook legend J.O.B. rock-n-roll socked in.
-          </p>
+          <h3>About Sam</h3>
+          <ul>
+            <li>Sweet balance of left & right brain.</li>
+            <li>
+              Autodidact frontend developer with a design eye and top-drawer
+              soft skills.
+            </li>
+            <li>Coach specializing in productivity.</li>
+            <li>Keen to learn from seasoned professionals. </li>
+            <li>Working remotely since 2013.</li>
+          </ul>
 
           <div className={aboutStyle.logoContainer}>
-            <p>Skills</p>
+            <h3>Skills</h3>
             <img
               alt="javascript"
               className={aboutStyle.logo}

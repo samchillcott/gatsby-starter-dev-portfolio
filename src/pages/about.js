@@ -24,7 +24,7 @@ const About = props => {
     <Layout>
       <div className={aboutStyle.main}>
         <div className={aboutStyle.derecha}>
-          <h3>About Sam</h3>
+          <h3>About Me</h3>
           <ul>
             <li>Sweet balance of left & right brain.</li>
             <li>

@@ -87,7 +87,7 @@ const About = props => {
           </div>
 
           <div className={aboutStyle.socialContainer}>
-            <p>Contact Me</p>
+            <h3>Contact Me</h3>
             <a
               className={aboutStyle.social}
               href="https://e-mailer.link/100116626233"

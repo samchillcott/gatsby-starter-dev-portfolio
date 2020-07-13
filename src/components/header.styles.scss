@@ -67,6 +67,15 @@ i {
   a {
     padding: 0 1rem 1rem 1rem;
     text-decoration: none;
+    &:visited {
+      color: black;
+    }
+    &:hover {
+      color: #9462f6;
+    }
+    &:active{
+      color: #a980fa;
+    }
   }
 }
 

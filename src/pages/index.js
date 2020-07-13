@@ -33,8 +33,8 @@ function renderFolio() {
 
             {live ? (
               <span className="repolinks" key={"live" + idx}>
-                <a key={"liveLink" + idx} href={repo} target="_blank">
-                  Live site
+                <a key={"liveLink" + idx} href={live} target="_blank">
+                  Live Site
                 </a>
               </span>
             ) : null}
@@ -48,8 +48,8 @@ function renderFolio() {
 const Index = () => {
   return (
     <Layout>
-      <h1 className="opener">Portfolio Projects</h1>
-      <p className="subtitle">Click for GH repo and live version</p>
+      {/* <h1 className="opener">Projects</h1> */}
+      <p className="subtitle">Click for GH repo and live version:</p>
       {renderFolio()}
     </Layout>
   )

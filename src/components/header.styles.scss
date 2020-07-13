@@ -31,18 +31,18 @@ h1 {
     &:visited {
       color: black;
     }
-    a:hover {
-      color: #9462f6;
-    }
   }
-  .fab {
-    -webkit-transition: -webkit-transform 0.2s ease-in-out;
-    transition: transform 0.2s ease-in-out;
+  // .fab {
+  //   -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  //   transition: transform 0.2s ease-in-out;
 
-    &:hover {
-      -webkit-transform: rotate(30deg);
-      transform: rotate(30deg);
-    }
+  //   &:hover {
+  //     -webkit-transform: rotate(30deg);
+  //     transform: rotate(30deg);
+  //   }
+  // }
+  .fab:hover {
+    color: #9462f6;
   }
 }
 

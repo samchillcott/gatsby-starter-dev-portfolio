@@ -16,7 +16,7 @@ function renderFolio() {
               {title}{" "}
             </span>
             <span key={"dot" + idx} className="folio-title">
-              ·{" "}
+              {" "}
             </span>
             <span key={"pSinop" + idx} className="folio-sinopsis">
               {sinopsis}
@@ -49,7 +49,7 @@ const Index = () => {
   return (
     <Layout>
       {/* <h1 className="opener">Projects</h1> */}
-      <p className="subtitle">Click for GH repo and live version:</p>
+      <p className="subtitle">Click for GitHub repo and live version:</p>
       {renderFolio()}
     </Layout>
   )

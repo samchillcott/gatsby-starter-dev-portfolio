@@ -1,6 +1,6 @@
 const portfolioItems = [
   {
-    title: "Project 1",
+    title: "Project:",
     sinopsis: "Weather App",
     desc: "Weather app using React, 3rd party API and conditional styling.",
     img: "./portfolio/weather.png",
@@ -9,7 +9,7 @@ const portfolioItems = [
     idx: 1,
   },
   {
-    title: "Project 2",
+    title: "Project:",
     sinopsis: "Coaching Question Generator",
     desc: "React app to generate coaching questions",
     img: "./portfolio/coaching.png",
@@ -18,7 +18,7 @@ const portfolioItems = [
     idx: 2,
   },
   {
-    title: "Project 3",
+    title: "Project:",
     sinopsis: "Firebasic",
     desc:
       "Basic web app utilizing Firebase Authentication, Storage, Cloud Firestore Database and Hosting.",

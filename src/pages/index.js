@@ -26,15 +26,15 @@ function renderFolio() {
             <img alt="nicasia" src={img} />
             {desc}
             <span className="repolinks" key={"repo" + idx}>
-              <a key={"repoLink" + idx} href={repo}>
+              <a key={"repoLink" + idx} href={repo} target="_blank">
                 Github Repo
               </a>
             </span>
 
             {live ? (
               <span className="repolinks" key={"live" + idx}>
-                <a key={"liveLink" + idx} href={repo}>
-                  Check it live
+                <a key={"liveLink" + idx} href={repo} target="_blank">
+                  Live site
                 </a>
               </span>
             ) : null}
@@ -48,8 +48,8 @@ function renderFolio() {
 const Index = () => {
   return (
     <Layout>
-      <h1 className="opener">Porfolio Projects</h1>
-      <p className="subtitle">Open up for repo and live version!</p>
+      <h1 className="opener">Portfolio Projects</h1>
+      <p className="subtitle">Click for GH repo and live version</p>
       {renderFolio()}
     </Layout>
   )

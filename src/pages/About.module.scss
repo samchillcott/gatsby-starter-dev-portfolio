@@ -112,12 +112,6 @@ h3 {
   }
 }
 
-@media (max-width: 400px) {
-  .iconos {
-    font-size: 0.6rem;
-  }
-}
-
 @media (max-width: 550px) {
   .derecha {
     font-size: 0.875rem;
@@ -127,3 +121,9 @@ h3 {
     font-size: 0.875rem;
   }
 }
+
+@media (max-width: 400px) {
+    .iconos {
+      font-size: 0.6rem;
+    }
+  }

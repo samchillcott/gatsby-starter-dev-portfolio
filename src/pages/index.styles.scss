@@ -8,6 +8,14 @@
   font-size: 2.5rem;
 }
 
+a:hover {
+  color: #9462f6;
+}
+
+a:visited {
+  color: black;
+}
+
 .subtitle {
   margin-top: 10px;
   padding-bottom: 1rem;
@@ -57,6 +65,10 @@ input {
     &:hover {
       color: #9462f6;
     }
+    &:visited {
+      color: black;
+      text-decoration: none;
+    }
     cursor: pointer;
     /* Icon */
     &::after {
@@ -105,32 +117,34 @@ input:checked {
     margin-top: 10px;
     text-decoration: none;
     &:hover {
+      text-decoration: none;
+
       color: #9462f6;
     }
     &:visited {
       text-decoration: none;
-      // color: black;
+      color: black;
     }
   }
 }
 
-@media (max-width: 800px) {
-  .folio-title {
-    font-size: 0.9rem;
-  }
+// @media (max-width: 800px) {
+//   .folio-title {
+//     font-size: 0.9rem;
+//   }
 
-  .folio-sinopsis {
-    font-size: 0.9rem;
-  }
-}
+//   .folio-sinopsis {
+//     font-size: 0.9rem;
+//   }
+// }
 
-@media (max-width: 500px) {
-  .folio-title {
-    font-size: 0.75rem;
-    padding-right: 1rem;
-  }
+// @media (max-width: 500px) {
+//   .folio-title {
+//     font-size: 0.75rem;
+//     padding-right: 1rem;
+//   }
 
-  .folio-sinopsis {
-    font-size: 0.75rem;
-  }
-}
+//   .folio-sinopsis {
+//     font-size: 0.75rem;
+//   }
+// }

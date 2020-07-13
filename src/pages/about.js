@@ -25,16 +25,15 @@ const About = props => {
       <div className={aboutStyle.main}>
         <div className={aboutStyle.derecha}>
           <h3>About Me</h3>
-          <ul>
-            <li>Sweet balance of left & right brain.</li>
-            <li>
-              Autodidact frontend developer with a design eye and top-drawer
-              soft skills.
-            </li>
-            <li>Coach specializing in productivity.</li>
-            <li>Keen to learn from seasoned professionals. </li>
-            <li>Working remotely since 2013.</li>
-          </ul>
+
+          <p>Sweet balance of left & right brain.</p>
+          <p>
+            Autodidact frontend developer with a design eye and top-drawer soft
+            skills.
+          </p>
+          <p>Coach specializing in productivity.</p>
+          <p>Keen to learn from seasoned professionals. </p>
+          <p>Working remotely since 2013.</p>
 
           <div className={aboutStyle.logoContainer}>
             <h3>Skills</h3>
@@ -94,13 +93,6 @@ const About = props => {
               target="_blank"
             >
               <i className="fa fa-envelope"></i>
-            </a>
-            <a
-              className={aboutStyle.social}
-              href="https://www.instagram.com/samchillcott/"
-              target="_blank"
-            >
-              <i className="fab fa-instagram"></i>
             </a>
           </div>
         </div>

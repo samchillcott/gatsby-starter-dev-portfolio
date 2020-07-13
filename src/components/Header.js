@@ -42,7 +42,7 @@ const Header = () => {
           </a>
         </div>
         <span className="pages-link">
-          <Link to="/">Portfolio</Link>|<Link to="/about">About</Link>
+          <Link to="/">Portfolio</Link>|<Link to="/about">About</Link>|<a href="https://drive.google.com/file/d/1Mnm2fHpDsYPn2FEEBeVCBg1pzvT4Rhxz/view?usp=sharing" target="_blank">Resume</a>
         </span>
 
         <hr />

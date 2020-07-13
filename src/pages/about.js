@@ -34,6 +34,7 @@ const About = props => {
           <p>Coach specializing in productivity.</p>
           <p>Keen to learn from seasoned professionals. </p>
           <p>Working remotely since 2013.</p>
+          <a href="https://drive.google.com/file/d/1Mnm2fHpDsYPn2FEEBeVCBg1pzvT4Rhxz/view?usp=sharing" target="_blank">View Resume</a>  
 
           <div className={aboutStyle.logoContainer}>
             <h3>Skills</h3>

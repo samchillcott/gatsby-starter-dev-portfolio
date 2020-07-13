@@ -89,6 +89,11 @@ i {
   }
 }
 
+@media (max-width: 900px) {
+  h1 {
+    font-size: 1rem;
+  }
+
 @media (max-width: 650px) {
   .header-main {
     padding: 0;

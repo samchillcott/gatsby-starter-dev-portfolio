@@ -62,11 +62,11 @@ const About = props => {
               className={aboutStyle.logo}
               src="./logos/bootstrap.svg"
             />
-            <img
+            {/* <img
               alt="Gulp"
               className={aboutStyle.logo}
               src="./logos/gulp.svg"
-            />
+            /> */}
             {/* <img
               alt="HTML"
               className={aboutStyle.logo}

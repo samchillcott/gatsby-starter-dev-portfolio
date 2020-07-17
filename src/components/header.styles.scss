@@ -68,12 +68,15 @@ i {
     padding: 0 1rem 1rem 1rem;
     text-decoration: none;
     &:visited {
+      text-decoration: none;
       color: black;
     }
     &:hover {
+      text-decoration: none;
       color: #9462f6;
     }
-    &:active{
+    &:active {
+      text-decoration: none;
       color: #a980fa;
     }
   }
@@ -112,4 +115,3 @@ i {
     color: #9462f6;
   }
 }
-

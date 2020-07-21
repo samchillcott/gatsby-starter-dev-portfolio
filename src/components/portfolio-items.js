@@ -11,7 +11,7 @@ const portfolioItems = [
   {
     title: "Project:",
     sinopsis: "Coaching Question Generator",
-    desc: "React app to generate coaching questions",
+    desc: "React app to generate coaching questions at random.",
     img: "./portfolio/coaching.png",
     live: "https://coachingquestions.netlify.app/",
     repo: "https://github.com/samchillcott/sam_react_coaching_questions",
@@ -23,7 +23,7 @@ const portfolioItems = [
     desc:
       "Basic web app utilizing Firebase Authentication, Storage, Cloud Firestore Database and Hosting.",
     img: "./portfolio/firebasic.png",
-    repo: "https://github.com/martin2844/ejs-blog",
+    repo: "https://github.com/samchillcott/sam_firebase_auth",
     live: "https://firebasic-b4186.firebaseapp.com/",
     idx: 3,
   },

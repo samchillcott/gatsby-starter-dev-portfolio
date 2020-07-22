@@ -71,7 +71,7 @@ input {
     }
     cursor: pointer;
     /* Icon */
-    &::after {
+    &:after {
       width: 1em;
       height: 1em;
       text-align: center;
@@ -118,7 +118,6 @@ input:checked {
     text-decoration: none;
     &:hover {
       text-decoration: none;
-
       color: #9462f6;
     }
     &:visited {

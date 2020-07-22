@@ -1,4 +1,4 @@
-# Sam Chillcott Portfolio 
+# Sam Chillcott Portfolio
 
 Built using Gatsby.js (GraphQL / React.js / Sass).
 A minimalist portfolio inspired via Dinesh Pandiyan and @codigoMate.

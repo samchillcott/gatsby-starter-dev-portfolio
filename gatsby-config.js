@@ -8,7 +8,7 @@ const path = require("path")
 
 module.exports = {
   siteMetadata: {
-    title: "Sam Chillcott Portfolio",
+    title: "Sam Chillcott",
     author: "Sam Chillcott",
     siteUrl: `https://www.portfolio.samchillcott.com`,
   },

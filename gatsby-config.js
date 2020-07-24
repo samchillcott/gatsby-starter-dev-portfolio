@@ -10,7 +10,7 @@ module.exports = {
   siteMetadata: {
     title: "Sam Chillcott",
     author: "Sam Chillcott",
-    siteUrl: `https://www.portfolio.samchillcott.com/`,
+    siteUrl: `https://www.portfolio.samchillcott.com`,
   },
   /* Your site config here */
   plugins: [

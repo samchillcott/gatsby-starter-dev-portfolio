@@ -44,7 +44,7 @@ const Header = () => {
         <span className="pages-link">
           <Link to="/">PORTFOLIO</Link>|<Link to="/about">ABOUT</Link>|
           <a
-            href="https://drive.google.com/file/d/1Mnm2fHpDsYPn2FEEBeVCBg1pzvT4Rhxz/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Bpx3ihgjBD5RffO1CWyY91xph5WPsG2h/view?usp=sharing"
             target="_blank"
           >
             RESUME

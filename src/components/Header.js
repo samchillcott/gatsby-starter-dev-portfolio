@@ -3,7 +3,6 @@ import "./header.styles.scss"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import { Helmet } from "react-helmet"
 
-
 const Header = () => {
   const data = useStaticQuery(graphql`
     query {
@@ -17,11 +16,11 @@ const Header = () => {
 
   return (
     <div>
-              <Helmet>
-          <meta charSet="utf-8" />
-          <title>Sam Chillcott Portfolio</title>
-          <link rel="canonical" href="http://mysite.com/example" />
-        </Helmet>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Sam Chillcott Portfolio</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
 
       <link
         href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Open+Sans&display=swap"

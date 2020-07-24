@@ -1,6 +1,7 @@
 import React from "react"
 import "./header.styles.scss"
 import { Link, graphql, useStaticQuery } from "gatsby"
+import { Helmet } from "react-helmet"
 
 const Header = () => {
   const data = useStaticQuery(graphql`
@@ -15,6 +16,12 @@ const Header = () => {
 
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Sam Chillcott Portfolio</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
+
       <link
         href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Open+Sans&display=swap"
         rel="stylesheet"
@@ -44,7 +51,7 @@ const Header = () => {
         <span className="pages-link">
           <Link to="/">PORTFOLIO</Link>|<Link to="/about">ABOUT</Link>|
           <a
-            href="https://drive.google.com/file/d/1Mnm2fHpDsYPn2FEEBeVCBg1pzvT4Rhxz/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Bpx3ihgjBD5RffO1CWyY91xph5WPsG2h/view?usp=sharing"
             target="_blank"
           >
             RESUME

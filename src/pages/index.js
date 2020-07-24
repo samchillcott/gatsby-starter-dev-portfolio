@@ -27,7 +27,7 @@ function renderFolio() {
             {desc}
             <span className="repolinks" key={"repo" + idx}>
               <a key={"repoLink" + idx} href={repo} target="_blank">
-                Github Repo
+                Source Code + Full Project Notes & Learnings
               </a>
             </span>
 

@@ -25,7 +25,7 @@ const About = (props) => {
       <div className={aboutStyle.main}>
         <div className={aboutStyle.wrapper}>
           <div className={aboutStyle.aboutme}>
-            <h3>About Me</h3>
+            <h3 className={aboutStyle.abouth3}>About Me</h3>
 
             <p>Sweet balance of left & right brain.</p>
             <p>

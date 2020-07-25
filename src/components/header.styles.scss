@@ -4,11 +4,13 @@ body {
 }
 hr {
   color: black;
-  margin-top: 2rem;
+  margin-top: 1.3rem;
+  margin-bottom: 0;
 }
 h1 {
   font-size: 5rem;
-  margin: 5px 0 0 0;
+  margin: 0.5rem 0 0 0;
+  // margin: 0;
   font-family: "Roboto", sans-serif;
 }
 
@@ -25,7 +27,7 @@ h1 {
 }
 
 .icons {
-  padding: 0.25rem;
+  // padding: 0.25rem;
   a {
     color: black;
     &:visited {
@@ -48,7 +50,8 @@ h1 {
 
 i {
   font-size: 1.6rem;
-  padding: 1rem;
+  padding: 0.5rem;
+  margin: 0 1rem;
 }
 
 .header-main {
@@ -61,11 +64,9 @@ i {
 }
 
 .pages-link {
-  padding: 0 2rem 0 2rem;
-  margin-bottom: 1rem;
-
+  margin-top: 1rem;
   a {
-    padding: 0 1rem 1rem 1rem;
+    padding: 0 1rem 0 1rem;
     text-decoration: none;
     &:visited {
       text-decoration: none;

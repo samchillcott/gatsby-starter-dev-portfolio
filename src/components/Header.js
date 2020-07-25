@@ -50,7 +50,7 @@ const Header = () => {
         </div>
         <span className="pages-link">
           <Link to="/">PORTFOLIO</Link>|<Link to="/about">ABOUT</Link>|
-          <a href="./static/Sam Chillcott Resume.pdf" target="_blank">
+          <a href="Sam Chillcott Resume.pdf" target="_blank">
             RESUME
           </a>
         </span>

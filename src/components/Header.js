@@ -21,7 +21,7 @@ const Header = () => {
         <meta property="og:title" content="Sam Chillcott Portfolio" />
         <meta property="og:image" content="favicon.ico" />
         <title>Sam Chillcott Portfolio</title>
-        <link rel="canonical" href="http://mysite.com/example" />
+        <link rel="canonical" href="https://portfolio.samchillcott.com" />
       </Helmet>
 
       <link

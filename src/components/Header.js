@@ -19,7 +19,7 @@ const Header = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Sam Chillcott Portfolio</title>
-        {/* <link rel="canonical" href="http://mysite.com/example" /> */}
+        <link rel="canonical" href="https://portfolio.samchillcott.com" />
       </Helmet>
 
       <link

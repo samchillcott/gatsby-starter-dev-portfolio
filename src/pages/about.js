@@ -18,24 +18,25 @@ export const query = graphql`
   }
 `
 
-const About = props => {
+const About = (props) => {
   console.log(query)
   return (
     <Layout>
       <div className={aboutStyle.main}>
-        <div className={aboutStyle.derecha}>
-          <h3>About Me</h3>
+        <div className={aboutStyle.wrapper}>
+          <div className={aboutStyle.aboutme}>
+            <h3>About Me</h3>
 
-          <p>Sweet balance of left & right brain.</p>
-          <p>
-            Autodidact frontend developer with a design eye and top-drawer soft
-            skills.
-          </p>
-          <p>Coach specializing in productivity.</p>
-          <p>Keen to learn from seasoned professionals. </p>
-          <p>Working remotely since 2013.</p>
-
-          <div className={aboutStyle.logoContainer}>
+            <p>Sweet balance of left & right brain.</p>
+            <p>
+              Autodidact frontend developer with a design eye and top-drawer
+              soft skills.
+            </p>
+            <p>Coach specializing in productivity.</p>
+            <p>Keen to learn from seasoned professionals. </p>
+            <p>Working remotely since 2013.</p>
+          </div>
+          <div className={aboutStyle.skills-container}>
             <h3>Skills</h3>
             <img
               alt="javascript"
@@ -90,7 +91,7 @@ const About = props => {
             />
           </div>
 
-          <div className={aboutStyle.socialContainer}>
+          <div className={aboutStyle.contact-container}>
             <h3>Contact Me</h3>
             <a
               className={aboutStyle.social}

@@ -55,25 +55,27 @@ h3 {
 //   }
 // }
 
-.derecha {
-  padding: 1.4rem;
-  flex-direction: row;
-  flex: 2;
-  font-size: 1.2rem;
+.wrapper {
   text-align: center;
   margin: auto;
+  flex-direction: row;
+  flex: 2;
 
-  h3 {
-    text-align: center;
+  .aboutme {
+    // padding: 1.4rem;
+    // font-size: 1.2rem;
+    ul {
+      list-style: none;
+      text-align: center;
+    }
   }
 
-  ul {
-    list-style: none;
-    text-align: center;
-  }
+  // h3 {
+  //   text-align: center;
+  // }
 }
 
-.logoContainer {
+.skills-container {
   text-align: center;
 
   .logo {
@@ -93,7 +95,7 @@ h3 {
   color: #9462f6;
 }
 
-.social-container {
+.contact-container {
   text-align: center;
 }
 
@@ -132,7 +134,7 @@ h3 {
 }
 
 @media (max-width: 400px) {
-    .iconos {
-      font-size: 0.6rem;
-    }
+  .iconos {
+    font-size: 0.6rem;
   }
+}

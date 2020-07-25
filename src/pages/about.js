@@ -63,21 +63,17 @@ const About = (props) => {
               className={aboutStyle.logo}
               src="./logos/bootstrap.svg"
             />
-            {/* <img
+            <img
               alt="Gulp"
               className={aboutStyle.logo}
               src="./logos/gulp.svg"
-            /> */}
-            {/* <img
+            />
+            <img
               alt="HTML"
               className={aboutStyle.logo}
               src="./logos/html5.svg"
             />
-            <img
-              alt="CSS"
-              className={aboutStyle.logo}
-              src="./logos/css3.svg"
-            /> */}
+            <img alt="CSS" className={aboutStyle.logo} src="./logos/css3.svg" />
             <img alt="Git" className={aboutStyle.logo} src="./logos/git.svg" />
             <img
               alt="GitHub"

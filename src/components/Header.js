@@ -18,6 +18,8 @@ const Header = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
+        <meta property="og:title" content="Sam Chillcott Portfolio" />
+        <meta property="og:image" content="favicon.ico" />
         <title>Sam Chillcott Portfolio</title>
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>

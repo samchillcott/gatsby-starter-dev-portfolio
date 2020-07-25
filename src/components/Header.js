@@ -19,7 +19,7 @@ const Header = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <meta property="og:title" content="Sam Chillcott Portfolio" />
-        <meta property="og:image" content="public/favicon.ico" />
+        <meta property="og:image" content="SC Square.jpg" />
         <title>Sam Chillcott Portfolio</title>
         <meta property="og:url" content="https://portfolio.samchillcott.com" />
 

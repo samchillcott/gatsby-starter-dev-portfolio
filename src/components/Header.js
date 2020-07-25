@@ -19,9 +19,11 @@ const Header = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <meta property="og:title" content="Sam Chillcott Portfolio" />
-        <meta property="og:image" content="favicon.ico" />
+        <meta property="og:image" content="SC Square.jpg" />
         <title>Sam Chillcott Portfolio</title>
-        <link rel="canonical" href="https://portfolio.samchillcott.com" />
+        <meta property="og:url" content="https://portfolio.samchillcott.com" />
+
+        {/* <link rel="canonical" href="https://portfolio.samchillcott.com" /> */}
       </Helmet>
 
       <link

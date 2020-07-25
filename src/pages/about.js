@@ -41,7 +41,7 @@ const About = (props) => {
             <img
               alt="javascript"
               className={aboutStyle.logo}
-              xmlns="./logos/javascript.svg"
+              src="./logos/javascript.svg"
             />
             <img
               alt="React"

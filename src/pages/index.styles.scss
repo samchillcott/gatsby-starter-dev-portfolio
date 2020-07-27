@@ -62,7 +62,9 @@ a:visited {
 // }
 
 .projectsWrapper {
-  display: flex;
+  // display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));  
   background-color: royalblue;
 }
 
@@ -72,7 +74,8 @@ a:visited {
   margin: 0.5rem;
   border: 1px solid black;
   border-radius: 0.3;
-  max-width: 400px;
+  flex: 50%;
+  // width: auto;
 
   .folio-title {
     display: flex;
@@ -82,10 +85,10 @@ a:visited {
   }
 
   .tab-content {
-    max-height: 100vh;
-    padding: 1em;
-    width: 90%;
-    font-size: 0.9rem;
+    // max-height: 100vh;
+    // padding: 1em;
+    // width: 90%;
+    // font-size: 0.9rem;
     // img {
     //   max-width: 300px;
     //   float: left;
@@ -177,23 +180,23 @@ a:visited {
 //   }
 // }
 
-@media (max-width: 800px) {
-  .folio-title {
-    font-size: 0.9rem;
-  }
+// @media (max-width: 800px) {
+//   .folio-title {
+//     font-size: 0.9rem;
+//   }
 
-  .folio-sinopsis {
-    font-size: 0.9rem;
-  }
-}
+//   .folio-sinopsis {
+//     font-size: 0.9rem;
+//   }
+// }
 
-@media (max-width: 500px) {
-  .folio-title {
-    font-size: 0.75rem;
-    padding-right: 1rem;
-  }
+// @media (max-width: 500px) {
+//   .folio-title {
+//     font-size: 0.75rem;
+//     padding-right: 1rem;
+//   }
 
-  .folio-sinopsis {
-    font-size: 0.75rem;
-  }
-}
+//   .folio-sinopsis {
+//     font-size: 0.75rem;
+//   }
+// }

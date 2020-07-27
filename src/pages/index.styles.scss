@@ -58,6 +58,7 @@ a:visited {
   // font-size: 0.9rem;
   background-color: red;
   display: flex;
+  flex-direction: row;
 }
 
 .projectWrapper {
@@ -65,13 +66,14 @@ a:visited {
   padding: 1rem;
   margin: 0.5rem;
   border: 1px solid black;
-  border-radius: 0.4;
+  border-radius: 0.3;
   max-width: 400px;
 
   .folio-title {
+    display: flex;
     justify-content: center;
     font-size: 1.5rem;
-    margin-bottom: 5px;
+    // margin-bottom: 5px;
   }
   img {
     max-width: 95%;

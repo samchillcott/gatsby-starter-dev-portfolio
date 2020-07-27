@@ -49,7 +49,7 @@ const Index = () => {
   return (
     <Layout>
       {/* <h1 className="opener">Projects</h1> */}
-      <p className="subtitle">Click for GitHub repo and live version:</p>
+      {/* <p className="subtitle">Click for GitHub repo and live version:</p> */}
       {renderFolio()}
     </Layout>
   )

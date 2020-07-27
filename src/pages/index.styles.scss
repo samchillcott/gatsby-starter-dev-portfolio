@@ -63,6 +63,7 @@ a:visited {
 
 .projectsWrapper {
   // display: flex;
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));  
   // background-color: royalblue;
@@ -70,7 +71,7 @@ a:visited {
 
 .projectWrapper {
   background-color: rgb(236, 236, 236);
-  padding: 1rem;
+  padding: 0.5rem;
   margin: 0.5rem;
   border: 1px solid black;
   border-radius: 0.3;
@@ -101,13 +102,14 @@ a:visited {
 
     .desc {
       // background: yellow;
-      margin: 1rem 0 0 0;
+      margin: 0.5rem 0;
       min-height: 125px;
     }
 
     .repolinks {
       // background-color: salmon;
       font-size: 0.9rem;
+      border: 0.5px solid grey;
       a {
         display: block;
         margin: 0.5rem 0;
@@ -123,7 +125,7 @@ a:visited {
       }
     }
     i {
-      font-size: 1.2rem;
+      font-size: 1rem;
       padding: 0;
     }
   }

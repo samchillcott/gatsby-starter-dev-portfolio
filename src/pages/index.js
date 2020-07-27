@@ -8,42 +8,42 @@ function renderFolio() {
     ({ title, sinopsis, idx, desc, repo, live, img }) => {
       console.log(title)
       return (
-        <div key={"div" + idx} className="tab">
-          {/* <input key={"index" + idx} type="checkbox" id={idx + title} />
+          <div key={"div" + idx}>
+            {/* <input key={"index" + idx} type="checkbox" id={idx + title} />
           <label key={"label" + idx} className="tab-label" for={idx + title}>
             {" "} */}
-          <div className="projectWrapper">
-            <span key={"pTit" + idx} className="folio-title">
-              {title}{" "}
-            </span>
-            {/* <span key={"dot" + idx} className="folio-title">
+            <div className="projectWrapper">
+              <span key={"pTit" + idx} className="folio-title">
+                {title}{" "}
+              </span>
+              {/* <span key={"dot" + idx} className="folio-title">
             {" "}
           </span> */}
-            {/* <span key={"pSinop" + idx} className="folio-sinopsis">
+              {/* <span key={"pSinop" + idx} className="folio-sinopsis">
             {sinopsis}
           </span> */}
-            {/* </label> */}
-            <div key={"tab" + idx} class="tab-content">
-              <img alt="nicasia" src={img} />
-              {desc}
-              <span className="repolinks" key={"repo" + idx}>
-                <a key={"repoLink" + idx} href={repo} target="_blank">
-                  <i className="fab fa-github" aria-hidden="true"></i>
-                  Source Code + Full Project Notes & Learnings
-                </a>
-              </span>
-
-              {live ? (
-                <span className="repolinks" key={"live" + idx}>
-                  <a key={"liveLink" + idx} href={live} target="_blank">
-                    <i class="fa fa-desktop" aria-hidden="true"></i>
-                    Live Site
+              {/* </label> */}
+              <div key={"tab" + idx} class="tab-content">
+                <img alt="nicasia" src={img} />
+                {desc}
+                <span className="repolinks" key={"repo" + idx}>
+                  <a key={"repoLink" + idx} href={repo} target="_blank">
+                    <i className="fab fa-github" aria-hidden="true"></i>
+                    Source Code + Full Project Notes & Learnings
                   </a>
                 </span>
-              ) : null}
+
+                {live ? (
+                  <span className="repolinks" key={"live" + idx}>
+                    <a key={"liveLink" + idx} href={live} target="_blank">
+                      <i class="fa fa-desktop" aria-hidden="true"></i>
+                      Live Site
+                    </a>
+                  </span>
+                ) : null}
+              </div>
             </div>
           </div>
-        </div>
       )
     }
   )
@@ -54,7 +54,9 @@ const Index = () => {
     <Layout>
       {/* <h1 className="opener">Projects</h1> */}
       {/* <p className="subtitle">Click for GitHub repo and live version:</p> */}
+      <div className="projectsWrapper">
       {renderFolio()}
+      </div>
     </Layout>
   )
 }

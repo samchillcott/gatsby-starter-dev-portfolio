@@ -38,7 +38,7 @@ function renderFolio() {
                 Project Notes & Learnings
               </a>
               <a key={"repoLink" + idx} href={repo} target="_blank">
-                <i className="fab fa-github" aria-hidden="true"></i>
+                <i className="fa fa-code" aria-hidden="true"></i>
                 Source Code
               </a>
             </div>

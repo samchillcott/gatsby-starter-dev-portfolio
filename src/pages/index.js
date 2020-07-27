@@ -22,16 +22,16 @@ function renderFolio() {
           </span> */}
           {/* </label> */}
           <div key={"tab" + idx} class="tab-content">
-            <img alt="nicasia" src={img} />
-            {desc}
-            <span className="repolinks" key={"repo" + idx}>
+            <img src={img} />
+            <div className="desc">{desc}</div>
+            <div className="repolinks" key={"repo" + idx}>
               {live ? (
-                <span className="repolinks" key={"live" + idx}>
+                <div className="repolinks" key={"live" + idx}>
                   <a key={"liveLink" + idx} href={live} target="_blank">
                     <i class="fa fa-desktop" aria-hidden="true"></i>
                     Live Site
                   </a>
-                </span>
+                </div>
               ) : null}
               <a key={"repoLink" + idx} href={readme} target="_blank">
                 <i className="fab fa-readme" aria-hidden="true"></i>
@@ -41,7 +41,7 @@ function renderFolio() {
                 <i className="fab fa-github" aria-hidden="true"></i>
                 Source Code
               </a>
-            </span>
+            </div>
           </div>
         </div>
       </div>

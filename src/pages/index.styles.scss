@@ -65,7 +65,7 @@ a:visited {
   // display: flex;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));  
-  background-color: royalblue;
+  // background-color: royalblue;
 }
 
 .projectWrapper {
@@ -95,13 +95,21 @@ a:visited {
     //   padding: 0 25px 25px 0;
     // }
     img {
-      max-width: 95%;
+      width: 100%;
       // margin: 0.2rem auto;
     }
+
+    .desc {
+      background: yellow;
+      margin: 1rem 0;
+    }
+
     .repolinks {
+      background-color: salmon;
       font-size: 0.9rem;
       a {
         display: block;
+        margin: 0.5rem 0;
         text-decoration: none;
         &:hover {
           text-decoration: none;

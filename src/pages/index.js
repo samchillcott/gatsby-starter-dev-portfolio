@@ -5,7 +5,7 @@ import portfolioItems from "../components/portfolio-items"
 
 function renderFolio() {
   return portfolioItems.map(
-    ({ title, sinopsis, idx, desc, repo, live, img }) => {
+    ({ title, sinopsis, idx, desc, repo, live, img, readme }) => {
       console.log(title)
       return (
           <div key={"div" + idx}>
@@ -27,12 +27,6 @@ function renderFolio() {
                 <img alt="nicasia" src={img} />
                 {desc}
                 <span className="repolinks" key={"repo" + idx}>
-                  <a key={"repoLink" + idx} href={repo} target="_blank">
-                    <i className="fab fa-github" aria-hidden="true"></i>
-                    Source Code + Full Project Notes & Learnings
-                  </a>
-                </span>
-
                 {live ? (
                   <span className="repolinks" key={"live" + idx}>
                     <a key={"liveLink" + idx} href={live} target="_blank">
@@ -41,6 +35,17 @@ function renderFolio() {
                     </a>
                   </span>
                 ) : null}
+                  <a key={"repoLink" + idx} href={readme} target="_blank">
+                    <i className="fab fa-readme" aria-hidden="true"></i>
+                    Project Notes & Learnings
+                  </a>
+                  <a key={"repoLink" + idx} href={repo} target="_blank">
+                    <i className="fab fa-github" aria-hidden="true"></i>
+                    Source Code
+                  </a>
+                </span>
+
+               
               </div>
             </div>
           </div>

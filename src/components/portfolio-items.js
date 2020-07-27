@@ -5,8 +5,10 @@ const portfolioItems = [
     desc: "Weather app using React, 3rd party API and conditional styling.",
     // img: "./portfolio/weather.png",
     img: "./portfolio/weather-downsized.gif",
-    live: "https://samchillcott.github.io/sam_react_weather_app/",
     repo: "https://github.com/samchillcott/sam_react_weather_app",
+    live: "https://samchillcott.github.io/sam_react_weather_app/",
+    readme:
+      "https://github.com/samchillcott/sam_react_weather_app/blob/master/README.md",
     idx: 1,
   },
   {
@@ -15,8 +17,10 @@ const portfolioItems = [
     desc: "React app to generate coaching questions at random.",
     // img: "./portfolio/coaching.png",
     img: "./portfolio/coaching-downsized.gif",
-    live: "https://coachingquestions.netlify.app/",
     repo: "https://github.com/samchillcott/sam_react_coaching_questions",
+    live: "https://coachingquestions.netlify.app/",
+    readme:
+      "https://github.com/samchillcott/sam_react_coaching_questions/blob/master/README.md",
     idx: 2,
   },
   {
@@ -27,6 +31,8 @@ const portfolioItems = [
     img: "./portfolio/firebasic.png",
     repo: "https://github.com/samchillcott/sam_firebase_auth",
     live: "https://firebasic-b4186.firebaseapp.com/",
+    readme:
+      "https://github.com/samchillcott/sam_firebase_auth/blob/master/README.md",
     idx: 3,
   },
   {
@@ -36,6 +42,8 @@ const portfolioItems = [
     img: "./portfolio/firebasic.png",
     repo: "https://github.com/samchillcott/gatsby-starter-dev-portfolio",
     live: "https://www.portfolio.samchillcott.com/",
+    readme:
+      "https://github.com/samchillcott/gatsby-starter-dev-portfolio/blob/master/README.md",
     idx: 4,
   },
 ]

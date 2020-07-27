@@ -2,7 +2,8 @@ const portfolioItems = [
   {
     title: "Weather App",
     // sinopsis: "",
-    desc: "Weather app using React, 3rd party API and conditional styling.",
+    desc:
+      "Web app displaying weather info collected from a 3rd party API. Background changes depending on certain weather conditions using conditional styling. Tech used: JavaScript, React, Open Weather API, GitHub Pages",
     // img: "./portfolio/weather.png",
     img: "./portfolio/weather-downsized.gif",
     repo: "https://github.com/samchillcott/sam_react_weather_app",
@@ -14,7 +15,8 @@ const portfolioItems = [
   {
     title: "Coaching Q Generator",
     // sinopsis: "Coaching Question Generator",
-    desc: "React app to generate coaching questions at random.",
+    desc:
+      "Web app to generate coaching questions at random and includes copy to clipboard and Tweet functionality. Tech used: JavaScript, React, Netlify",
     // img: "./portfolio/coaching.png",
     img: "./portfolio/coaching-downsized.gif",
     repo: "https://github.com/samchillcott/sam_react_coaching_questions",
@@ -27,7 +29,7 @@ const portfolioItems = [
     title: "Firebasic",
     // sinopsis: "Firebasic",
     desc:
-      "Basic web app utilizing Firebase Authentication, Storage, Cloud Firestore Database and Hosting.",
+      "Basic web app that uploads files to cloud storage and stores metadata in a NoSQL database. User needs to be signed up to upload. Tech used: JavaScript, Firebase: Authentication, Storage, Cloud Firestore Database and Hosting.",
     img: "./portfolio/firebasic.png",
     repo: "https://github.com/samchillcott/sam_firebase_auth",
     live: "https://firebasic-b4186.firebaseapp.com/",
@@ -38,7 +40,8 @@ const portfolioItems = [
   {
     title: "Portfolio",
     // sinopsis: "Portfolio",
-    desc: "Portfolio site built using Gatsby (React & GraphQL)",
+    desc:
+      "Portfolio site to house my projects and resume. Tech used: Gatsby (React & GraphQL), Netlify",
     img: "./portfolio/firebasic.png",
     repo: "https://github.com/samchillcott/gatsby-starter-dev-portfolio",
     live: "https://www.portfolio.samchillcott.com/",

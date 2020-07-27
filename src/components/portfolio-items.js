@@ -12,7 +12,7 @@ const portfolioItems = [
     idx: 1,
   },
   {
-    title: "Coaching Question Generator",
+    title: "Coaching Q Generator",
     // sinopsis: "Coaching Question Generator",
     desc: "React app to generate coaching questions at random.",
     // img: "./portfolio/coaching.png",

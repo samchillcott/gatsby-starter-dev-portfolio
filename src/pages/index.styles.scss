@@ -127,15 +127,15 @@ input:checked {
   }
 }
 
-// @media (max-width: 800px) {
-//   .folio-title {
-//     font-size: 0.9rem;
-//   }
+@media (max-width: 800px) {
+  .folio-title {
+    font-size: 0.9rem;
+  }
 
-//   .folio-sinopsis {
-//     font-size: 0.9rem;
-//   }
-// }
+  .folio-sinopsis {
+    font-size: 0.9rem;
+  }
+}
 
 // @media (max-width: 500px) {
 //   .folio-title {

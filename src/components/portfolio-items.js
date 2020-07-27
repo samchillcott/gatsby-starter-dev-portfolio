@@ -32,7 +32,7 @@ const portfolioItems = [
   {
     title: "Project:",
     sinopsis: "Portfolio",
-    desc: "Portfolio site built using Gatsby (React & GraphQL",
+    desc: "Portfolio site built using Gatsby (React & GraphQL)",
     img: "./portfolio/firebasic.png",
     repo: "https://github.com/samchillcott/gatsby-starter-dev-portfolio",
     live: "https://www.portfolio.samchillcott.com/",

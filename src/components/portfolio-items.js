@@ -1,7 +1,7 @@
 const portfolioItems = [
   {
-    title: "Project:",
-    sinopsis: "Weather App",
+    title: "Weather App",
+    // sinopsis: "",
     desc: "Weather app using React, 3rd party API and conditional styling.",
     // img: "./portfolio/weather.png",
     img: "./portfolio/weather-downsized.gif",
@@ -10,8 +10,8 @@ const portfolioItems = [
     idx: 1,
   },
   {
-    title: "Project:",
-    sinopsis: "Coaching Question Generator",
+    title: "Coaching Question Generator",
+    // sinopsis: "Coaching Question Generator",
     desc: "React app to generate coaching questions at random.",
     // img: "./portfolio/coaching.png",
     img: "./portfolio/coaching-downsized.gif",
@@ -20,8 +20,8 @@ const portfolioItems = [
     idx: 2,
   },
   {
-    title: "Project:",
-    sinopsis: "Firebasic",
+    title: "Firebasic",
+    // sinopsis: "Firebasic",
     desc:
       "Basic web app utilizing Firebase Authentication, Storage, Cloud Firestore Database and Hosting.",
     img: "./portfolio/firebasic.png",
@@ -30,8 +30,8 @@ const portfolioItems = [
     idx: 3,
   },
   {
-    title: "Project:",
-    sinopsis: "Portfolio",
+    title: "Portfolio",
+    // sinopsis: "Portfolio",
     desc: "Portfolio site built using Gatsby (React & GraphQL)",
     img: "./portfolio/firebasic.png",
     repo: "https://github.com/samchillcott/gatsby-starter-dev-portfolio",

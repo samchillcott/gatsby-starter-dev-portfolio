@@ -12,7 +12,7 @@ function renderFolio() {
             {" "} */}
         <div className="projectWrapper">
           <span key={"pTit" + idx} className="folio-title">
-            {title}{" "}
+            {title}
           </span>
           {/* <span key={"dot" + idx} className="folio-title">
             {" "}

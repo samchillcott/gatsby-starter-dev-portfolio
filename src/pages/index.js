@@ -30,25 +30,26 @@ function renderFolio() {
                 <br></br>
                 {tech}
               </div>
-              <div className="repolinks" key={"repo" + idx}>
-                <div className="repolinks" key={"live" + idx}>
-                  {/* <a key={"liveLink" + idx} href={live} target="_blank"> */}
+              {/* <div className="repolinks" key={"repo" + idx}> */}
+              <div className="repolinks">
+                {/* <div className="repolinks" key={"live" + idx}> */}
 
-                  <a href={live} target="_blank">
-                    <i class="fa fa-desktop" aria-hidden="true"></i>
-                    Live Site
-                  </a>
+                <a key={"liveLink" + idx} href={live} target="_blank">
+                  {/* <a href={live} target="_blank"> */}
+                  <i class="fa fa-desktop" aria-hidden="true"></i>
+                  Live Site
+                </a>
 
-                  <a key={"readmeLink" + idx} href={readme} target="_blank">
-                    <i className="fab fa-readme" aria-hidden="true"></i>
-                    Project Notes & Learnings
-                  </a>
+                <a key={"readmeLink" + idx} href={readme} target="_blank">
+                  <i className="fab fa-readme" aria-hidden="true"></i>
+                  Project Notes & Learnings
+                </a>
 
-                  <a key={"repoLink" + idx} href={repo} target="_blank">
-                    <i className="fa fa-code" aria-hidden="true"></i>
-                    Source Code
-                  </a>
-                </div>
+                <a key={idx} href={repo} target="_blank">
+                  <i className="fa fa-code" aria-hidden="true"></i>
+                  Source Code
+                </a>
+                {/* </div> */}
               </div>
             </div>
           </div>

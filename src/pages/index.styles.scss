@@ -16,10 +16,6 @@ a:visited {
   color: black;
 }
 
-i {
-  font-size: 1rem;
-}
-
 .subtitle {
   margin-top: 10px;
   padding-bottom: 1rem;
@@ -57,12 +53,11 @@ i {
 
 .tab {
   // width: 100%;
-    // color: black;
-    // overflow: hidden;
-    // font-size: 0.9rem;
-    background-color: red;
-    display: flex;
-   
+  // color: black;
+  // overflow: hidden;
+  // font-size: 0.9rem;
+  background-color: red;
+  display: flex;
 }
 
 .projectWrapper {
@@ -73,12 +68,35 @@ i {
   border-radius: 0.4;
   max-width: 400px;
 
+  .folio-title {
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
   img {
     max-width: 95%;
     margin: 0.2rem auto;
   }
+  .repolinks {
+    font-size: 0.9rem;
+    a {
+      display: block;
+      margin-top: 10px;
+      text-decoration: none;
+      &:hover {
+        text-decoration: none;
+        color: #9462f6;
+      }
+      &:visited {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+  i {
+    font-size: 1rem;
+  }
 }
-
 
 // .tab {
 //   width: 100%;
@@ -139,22 +157,6 @@ i {
 //     }
 //   }
 // }
-
-.repolinks {
-  a {
-    display: block;
-    margin-top: 10px;
-    text-decoration: none;
-    &:hover {
-      text-decoration: none;
-      color: #9462f6;
-    }
-    &:visited {
-      text-decoration: none;
-      color: black;
-    }
-  }
-}
 
 @media (max-width: 800px) {
   .folio-title {

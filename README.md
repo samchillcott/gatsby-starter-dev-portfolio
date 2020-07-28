@@ -44,6 +44,7 @@
 - Not use Gatsby - seems overkill?
 - Some interesting micro interactions.
 - Active page indication.
+- Enlarge gifs on click.
 - Accessibility test and revamp.
 - Performance test and tweaks.
 

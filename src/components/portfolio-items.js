@@ -34,7 +34,7 @@ const portfolioItems = [
       "Basic web app for registered users to upload files to cloud storage and store metadata in a NoSQL database.",
     tech:
       "Tech used: JavaScript, Firebase: Authentication, Storage, Cloud Firestore Database and Hosting.",
-    img: "./portfolio/firebasic.png",
+    img: "./portfolio/firebasic-downsized.gif",
     repo: "https://github.com/samchillcott/sam_firebase_auth",
     live: "https://firebasic-b4186.firebaseapp.com/",
     readme:
@@ -46,7 +46,7 @@ const portfolioItems = [
     // sinopsis: "Portfolio",
     desc: "Portfolio site to house my projects and resume.",
     tech: "Tech used: Gatsby (React & GraphQL), Sass, Netlify.",
-    img: "./portfolio/firebasic.png",
+    img: "./portfolio/portfolio.png",
     repo: "https://github.com/samchillcott/gatsby-starter-dev-portfolio",
     live: "https://www.portfolio.samchillcott.com/",
     readme:

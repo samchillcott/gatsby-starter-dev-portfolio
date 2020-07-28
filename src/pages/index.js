@@ -31,8 +31,8 @@ function renderFolio() {
                 {tech}
               </div>
               {/* <div className="repolinks" key={"repo" + idx}> */}
-              <div className="repolinks">
-                {/* <div className="repolinks" key={"live" + idx}> */}
+              {/* <div className="repolinks"> */}
+                <div className="repolinks" key={"live" + idx}>
 
                 <a key={"liveLink" + idx} href={live} target="_blank">
                   {/* <a href={live} target="_blank"> */}

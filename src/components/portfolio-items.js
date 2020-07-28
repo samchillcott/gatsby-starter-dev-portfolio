@@ -45,7 +45,7 @@ const portfolioItems = [
     title: "Portfolio",
     // sinopsis: "Portfolio",
     desc: "Portfolio site to house my projects and resume.",
-    tech: "Tech used: Gatsby (React & GraphQL), Netlify.",
+    tech: "Tech used: Gatsby (React & GraphQL), Sass, Netlify.",
     img: "./portfolio/firebasic.png",
     repo: "https://github.com/samchillcott/gatsby-starter-dev-portfolio",
     live: "https://www.portfolio.samchillcott.com/",

@@ -1,7 +1,15 @@
 # Sam Chillcott Portfolio
 
-- Portfolio site to host completed projects and resume as well as showcase skills/tech stack.
-- Tech used: Gatsby.js (GraphQL / React.js / Sass), Netlify, subdomain hosting.
+Portfolio site to host completed projects and resume as well as showcase skills/tech stack.
+
+## Tech Used
+
+- Gatsby.js
+- GraphQL
+- React.js
+- Sass.
+- Netlify.
+- Subdomain hosting.
 - Built based on a starter template (via Dinesh Pandiyan and @codigoMate). Not built using a follow along tutorial.
 
 ## Features

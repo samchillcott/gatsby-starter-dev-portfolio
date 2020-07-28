@@ -16,116 +16,187 @@ a:visited {
   color: black;
 }
 
-.subtitle {
-  margin-top: 10px;
-  padding-bottom: 1rem;
-}
+// .subtitle {
+//   margin-top: 10px;
+//   padding-bottom: 1rem;
+// }
 
 .folio-title {
   font-weight: bold;
   display: inline;
-  padding-right: 0.4rem;
+  // padding-right: 0.4rem;
   font-size: 1.1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 
-.folio-sinopsis {
-  display: inline;
-  color: #424242;
-  font-size: 1.1rem;
-}
+// .folio-sinopsis {
+//   display: inline;
+//   color: #424242;
+//   font-size: 1.1rem;
+// }
 
 .container {
   padding: 20rem 20rem;
 }
 
-input {
-  position: absolute;
-  opacity: 0;
-  z-index: -1;
+// input {
+//   position: absolute;
+//   opacity: 0;
+//   z-index: -1;
+// }
+
+// .tabs {
+//   border-radius: 8px;
+//   overflow: hidden;
+//   box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+// }
+
+// .tab {
+//   // width: 100%;
+//   // color: black;
+//   // overflow: hidden;
+//   // font-size: 0.9rem;
+//   background-color: red;
+//   display: flex;
+//   flex-direction: row;
+// }
+
+.projectsWrapper {
+  // display: flex;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));  
+  // background-color: royalblue;
 }
 
-.tabs {
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
-}
+.projectWrapper {
+  background-color: rgb(243, 242, 242);
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: 1px solid black;
+  border-radius: 0.6;
+  // flex: 50%;
+  // width: auto;
 
-.tab {
-  width: 100%;
-  color: black;
-  overflow: hidden;
-  font-size: 0.9rem;
-  img {
-    max-width: 300px;
-  }
-  &-label {
+  .folio-title {
     display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+    // margin-bottom: 5px;
+  }
 
-    &:hover {
-      color: #9462f6;
-    }
-    &:visited {
-      color: black;
-      text-decoration: none;
-    }
-    cursor: pointer;
-    /* Icon */
-    &:after {
-      width: 1em;
-      height: 1em;
-      text-align: center;
-      transition: all 0.35s;
-    }
+  a:hover {
+    color: #9462f6;
+
   }
-  &-content {
-    max-height: 0;
-    background-color: transparent;
-    transition: all 0.35s;
-  }
-  &-close {
-    display: flex;
-    justify-content: flex-end;
-    font-size: 0.75em;
-    cursor: pointer;
+
+  .tab-content {
+    // max-height: 100vh;
+    // padding: 1em;
+    // width: 90%;
+    // font-size: 0.9rem;
+    // img {
+    //   max-width: 300px;
+    //   float: left;
+    //   padding: 0 25px 25px 0;
+    // }
+    img {
+      width: 100%;
+      // margin: 0.2rem auto;
+    }
+
+    .desc {
+      // background: yellow;
+      margin: 0.5rem 0;
+      min-height: 125px;
+      font-size: 0.9rem;
+    }
+
+    .repolinks {
+      // background-color: salmon;
+      font-size: 0.8rem;
+      // border: 0.2px solid grey;
+      padding-left: 1.5rem;
+      a {
+        display: block;
+        margin: 0.2rem 0;
+        text-decoration: none;
+        &:hover {
+          text-decoration: none;
+          color: #9462f6;
+        }
+        &:visited {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+    i {
+      font-size: 1rem;
+      padding: 0;
+    }
   }
 }
+
+// .tab {
+//   width: 100%;
+//   color: black;
+//   overflow: hidden;
+//   font-size: 0.9rem;
+//   img {
+//     max-width: 300px;
+//   }
+//   &-label {
+//     display: flex;
+
+//     &:hover {
+//       color: #9462f6;
+//     }
+//     &:visited {
+//       color: black;
+//       text-decoration: none;
+//     }
+//     cursor: pointer;
+//     /* Icon */
+//     &:after {
+//       width: 1em;
+//       height: 1em;
+//       text-align: center;
+//       transition: all 0.35s;
+//     }
+//   }
+//   &-content {
+//     max-height: 0;
+//     background-color: transparent;
+//     transition: all 0.35s;
+//   }
+//   &-close {
+//     display: flex;
+//     justify-content: flex-end;
+//     font-size: 0.75em;
+//     cursor: pointer;
+//   }
+// }
 
 // :checked
-input:checked {
-  + .tab-label {
-    &::after {
-      transform: rotate(90deg);
-    }
-  }
-  ~ .tab-content {
-    max-height: 100vh;
-    padding: 1em;
-    width: 90%;
-    font-size: 0.9rem;
-    img {
-      max-width: 300px;
-      float: left;
-      padding: 0 25px 25px 0;
-    }
-  }
-}
-
-.repolinks {
-  a {
-    display: block;
-    margin-top: 10px;
-    text-decoration: none;
-    &:hover {
-      text-decoration: none;
-      color: #9462f6;
-    }
-    &:visited {
-      text-decoration: none;
-      color: black;
-    }
-  }
-}
+// input:checked {
+//   + .tab-label {
+//     &::after {
+//       transform: rotate(90deg);
+//     }
+//   }
+//   ~ .tab-content {
+//     max-height: 100vh;
+//     padding: 1em;
+//     width: 90%;
+//     font-size: 0.9rem;
+//     img {
+//       max-width: 300px;
+//       float: left;
+//       padding: 0 25px 25px 0;
+//     }
+//   }
+// }
 
 // @media (max-width: 800px) {
 //   .folio-title {

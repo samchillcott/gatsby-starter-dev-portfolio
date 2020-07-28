@@ -85,6 +85,16 @@ const About = (props) => {
               className={aboutStyle.logo}
               src="./logos/firebase.svg"
             />
+            <img
+              alt="Netlify"
+              className={aboutStyle.logo}
+              src="./logos/netlify.svg"
+            />
+            <img
+              alt="VSCode"
+              className={aboutStyle.logo}
+              src="./logos/vscode.svg"
+            />
           </div>
 
           <div className={aboutStyle.contactContainer}>

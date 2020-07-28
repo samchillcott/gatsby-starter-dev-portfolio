@@ -42,9 +42,10 @@
 
 - Possibly make it myself from scratch but the point of this was to get an MVP up.
 - Not use Gatsby - seems overkill?
-- Some interesting micro interactions.
+- Use icons in the "Tech used" part of the description.
 - Active page indication.
 - Enlarge gifs on click.
+- Add some interesting micro interactions.
 - Accessibility test and revamp.
 - Performance test and tweaks.
 

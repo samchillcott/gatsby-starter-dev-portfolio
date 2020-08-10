@@ -17,8 +17,8 @@ const portfolioItems = [
     title: "Coaching Q Generator",
     // sinopsis: "Coaching Question Generator",
     desc:
-      "Web app to generate coaching questions at random and includes copy to clipboard and Tweet functionality.",
-    tech: "Tech used: JavaScript, React, Netlify.",
+      "Web app to generate coaching questions at random. Includes unit, integration & e2e tests.",
+    tech: "Tech used: JavaScript, React, Netlify, Jest, Puppeteer.",
     // img: "./portfolio/coaching.png",
     img: "./portfolio/coaching-downsized.gif",
     repo: "https://github.com/samchillcott/sam_react_coaching_questions",

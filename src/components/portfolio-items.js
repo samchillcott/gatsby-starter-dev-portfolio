@@ -4,7 +4,8 @@ const portfolioItems = [
     // sinopsis: "",
     desc:
       "Web app displaying weather info collected from a 3rd party API. Background changes depending on certain weather conditions using conditional styling.",
-    tech: "Tech used: JavaScript, React, Open Weather API, GitHub Pages.",
+    tech:
+      "Tech used: JavaScript, React, Open Weather API, Moment.js, GitHub Pages.",
     // img: "./portfolio/weather.png",
     img: "./portfolio/weather-downsized.gif",
     repo: "https://github.com/samchillcott/sam_react_weather_app",

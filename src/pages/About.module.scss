@@ -26,12 +26,21 @@ h3 {
 .wrapper {
   text-align: center;
   margin: auto;
+  background-color: lightblue;
+  padding: 0 2rem;
 
   .aboutme {
     box-sizing: border-box;
   }
+
   .abouth3 {
     margin-top: 0;
+    text-decoration: underline;
+
+  }
+  .h3 {
+    // font-weight: bold;
+    text-decoration: underline;
   }
 }
 

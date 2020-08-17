@@ -55,19 +55,19 @@ i {
 }
 
 .header-main {
-  padding: 2rem 20rem 2rem 20rem;
+  // padding: 2rem 20rem 2rem 20rem;
   text-align: center;
 }
 
 .content-main {
-  padding: 0.5rem 10rem 0.5rem 10rem;
+  padding: 0.5rem;
 }
 
 .pages-link {
-  margin-top: 1rem;
+  margin-top: 0.6rem;
   margin: 0, auto;
   a {
-    padding: 0 1.2rem 0 1.2rem;
+    padding: 0 1rem 0 1rem;
     text-decoration: none;
     &:visited {
       text-decoration: none;
@@ -86,11 +86,11 @@ i {
 
 @media (max-width: 1400px) {
   .header-main {
-    padding: 0;
+    // padding: 0;
   }
 
   .content-main {
-    padding: 1rem 4rem;
+    // padding: 1rem 4rem;
   }
 }
 

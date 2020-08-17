@@ -65,7 +65,7 @@ i {
 
 .pages-link {
   margin-top: 0.6rem;
-  margin: 0, auto;
+  // margin: 0, auto;
   a {
     padding: 0 1rem 0 1rem;
     text-decoration: none;
@@ -84,15 +84,15 @@ i {
   }
 }
 
-@media (max-width: 1400px) {
-  .header-main {
-    // padding: 0;
-  }
+// @media (max-width: 1400px) {
+//   .header-main {
+//     // padding: 0;
+//   }
 
-  .content-main {
-    // padding: 1rem 4rem;
-  }
-}
+//   .content-main {
+//     // padding: 1rem 4rem;
+//   }
+// }
 
 @media (max-width: 900px) {
   h1 {

@@ -25,7 +25,9 @@ const About = (props) => {
       <div className={aboutStyle.main}>
         <div className={aboutStyle.wrapper}>
           <div className={aboutStyle.aboutme}>
-            <h3 className={aboutStyle.h3} className={aboutStyle.abouth3}>About Me</h3>
+            <h3 className={aboutStyle.h3} className={aboutStyle.abouth3}>
+              About Me
+            </h3>
 
             <p>Sweet balance of left & right brain.</p>
             <p>
@@ -41,62 +43,58 @@ const About = (props) => {
             <img
               alt="javascript"
               className={aboutStyle.logo}
-              src="./logos/javascript.svg"
+              src="/logos/javascript.svg"
             />
             <img
               alt="React"
               className={aboutStyle.logo}
-              src="./logos/react.svg"
+              src="/logos/react.svg"
             />
             <img
               alt="Gatsby"
               className={aboutStyle.logo}
-              src="./logos/gatsby.svg"
+              src="/logos/gatsby.svg"
             />
-            <img
-              alt="Sass"
-              className={aboutStyle.logo}
-              src="./logos/sass.svg"
-            />
+            <img alt="Sass" className={aboutStyle.logo} src="/logos/sass.svg" />
             <img
               alt="Bootstrap"
               className={aboutStyle.logo}
-              src="./logos/bootstrap.svg"
+              src="/logos/bootstrap.svg"
             />
-            <img
-              alt="Gulp"
-              className={aboutStyle.logo}
-              src="./logos/gulp.svg"
-            />
+            <img alt="Gulp" className={aboutStyle.logo} src="/logos/gulp.svg" />
             <img
               alt="HTML"
               className={aboutStyle.logo}
-              src="./logos/html5.svg"
+              src="/logos/html5.svg"
             />
-            <img alt="CSS" className={aboutStyle.logo} src="./logos/css3.svg" />
-            <img alt="Jest" className={aboutStyle.logo} src="./logos/jest.svg" />
-            <img alt="Puppeteer" className={aboutStyle.logo} src="./logos/puppeteer.svg" />
+            <img alt="CSS" className={aboutStyle.logo} src="/logos/css3.svg" />
+            <img alt="Jest" className={aboutStyle.logo} src="/logos/jest.svg" />
+            <img
+              alt="Puppeteer"
+              className={aboutStyle.logo}
+              src="/logos/puppeteer.svg"
+            />
 
-            <img alt="Git" className={aboutStyle.logo} src="./logos/git.svg" />
+            <img alt="Git" className={aboutStyle.logo} src="/logos/git.svg" />
             <img
               alt="GitHub"
               className={aboutStyle.logo}
-              src="./logos/github.svg"
+              src="/logos/github.svg"
             />
             <img
               alt="Firebase"
               className={aboutStyle.logo}
-              src="./logos/firebase.svg"
+              src="/logos/firebase.svg"
             />
             <img
               alt="Netlify"
               className={aboutStyle.logo}
-              src="./logos/netlify.svg"
+              src="/logos/netlify.svg"
             />
             <img
               alt="VSCode"
               className={aboutStyle.logo}
-              src="./logos/vscode.svg"
+              src="/logos/vscode.svg"
             />
           </div>
 

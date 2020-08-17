@@ -7,7 +7,7 @@ function renderFolio() {
   return portfolioItems.map(
     ({ title, idx, desc, tech, repo, live, img, readme }) => {
       return (
-        <div key={"div" + idx}>
+        <div key={"div" + idx} className="main-div">
           {/* <input key={"index" + idx} type="checkbox" id={idx + title} />
           <label key={"label" + idx} className="tab-label" for={idx + title}>
             {" "} */}

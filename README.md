@@ -1,7 +1,15 @@
 # Sam Chillcott Portfolio
 
-- Portfolio site to host completed projects and resume as well as showcase skills/tech stack.
-- Tech used: Gatsby.js (GraphQL / React.js / Sass), Netlify, subdomain hosting.
+Portfolio site to host completed projects and resume as well as showcase skills/tech stack.
+
+## Tech Used
+
+- Gatsby.js
+- GraphQL
+- React.js
+- Sass.
+- Netlify.
+- Subdomain hosting.
 - Built based on a starter template (via Dinesh Pandiyan and @codigoMate). Not built using a follow along tutorial.
 
 ## Features
@@ -42,12 +50,16 @@
 
 - Possibly make it myself from scratch but the point of this was to get an MVP up.
 - Not use Gatsby - seems overkill?
-- Some interesting micro interactions.
+- Have a drop down or expansion to house more detailed notes on the project in the landing page not just the readme link. Or have each project take up more screen real estate and have the info inside. Scrolling > Click & Scroll.
+- Add my other projects.
+- Use icons in the "Tech used" part of the description.
 - Active page indication.
+- Enlarge gifs on click.
+- Add some interesting micro interactions.
 - Accessibility test and revamp.
 - Performance test and tweaks.
 
 ## Watch Me Build This
 
+- #100daysofcode 95, 96, 100 & #daysofcode 20/7/20 - 28/7/20.
 - [Daily Videos - Instagram](https://www.instagram.com/samchillcott/)
-- #100daysofcode 95, 96, 100 & #daysofcode 20/7/20 - 28/7/20

@@ -4,7 +4,8 @@ const portfolioItems = [
     // sinopsis: "",
     desc:
       "Web app displaying weather info collected from a 3rd party API. Background changes depending on certain weather conditions using conditional styling.",
-    tech: "Tech used: JavaScript, React, Open Weather API, GitHub Pages.",
+    tech:
+      "Tech used: JavaScript, React, Open Weather API, Moment.js, GitHub Pages.",
     // img: "./portfolio/weather.png",
     img: "./portfolio/weather-downsized.gif",
     repo: "https://github.com/samchillcott/sam_react_weather_app",
@@ -17,8 +18,8 @@ const portfolioItems = [
     title: "Coaching Q Generator",
     // sinopsis: "Coaching Question Generator",
     desc:
-      "Web app to generate coaching questions at random and includes copy to clipboard and Tweet functionality.",
-    tech: "Tech used: JavaScript, React, Netlify.",
+      "Web app to generate coaching questions at random. Includes unit, integration & e2e tests.",
+    tech: "Tech used: JavaScript, React, Netlify, Jest, Puppeteer.",
     // img: "./portfolio/coaching.png",
     img: "./portfolio/coaching-downsized.gif",
     repo: "https://github.com/samchillcott/sam_react_coaching_questions",
@@ -46,7 +47,7 @@ const portfolioItems = [
     // sinopsis: "Portfolio",
     desc: "Portfolio site to house my projects and resume.",
     tech: "Tech used: Gatsby (React & GraphQL), Sass, Netlify.",
-    img: "./portfolio/portfolio.png",
+    img: "./portfolio/portfolio-downsized.gif",
     repo: "https://github.com/samchillcott/gatsby-starter-dev-portfolio",
     live: "https://www.portfolio.samchillcott.com/",
     readme:

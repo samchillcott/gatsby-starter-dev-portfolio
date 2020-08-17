@@ -26,7 +26,7 @@ h3 {
 .wrapper {
   text-align: center;
   margin: auto;
-  background-color: lightblue;
+  // background-color: lightblue;
   padding: 0 2rem;
 
   .aboutme {
@@ -60,7 +60,7 @@ h3 {
 .social {
   font-size: 1.4rem;
   color: black;
-  padding: 0 1rem;
+  padding: 0;
 }
 
 .social:hover {
@@ -69,6 +69,11 @@ h3 {
 
 .contactContainer {
   text-align: center;
+
+  i {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 @media (max-width: 1050px) {

@@ -41,58 +41,68 @@ const About = (props) => {
           <div className={aboutStyle.skillsContainer}>
             <h3 className={aboutStyle.h3}>Skills</h3>
             <img
-              alt="javascript"
+              alt="Javascript"
+              title="Javascript"
               className={aboutStyle.logo}
               src="/logos/javascript.svg"
             />
             <img
               alt="React"
+              title="React - Javascript Framework"
               className={aboutStyle.logo}
               src="/logos/react.svg"
             />
             <img
               alt="Gatsby"
+              title="Gatsby.js - React-based, GraphQL powered, static site generator"
               className={aboutStyle.logo}
               src="/logos/gatsby.svg"
             />
-            <img alt="Sass" className={aboutStyle.logo} src="/logos/sass.svg" />
+            <img alt="Sass" title="Sass - CSS pre-processor" className={aboutStyle.logo} src="/logos/sass.svg" />
             <img
               alt="Bootstrap"
+              title="Bootstrap - CSS Framework"
               className={aboutStyle.logo}
               src="/logos/bootstrap.svg"
             />
-            <img alt="Gulp" className={aboutStyle.logo} src="/logos/gulp.svg" />
+            <img alt="Gulp" title="Gulp.js - Javascript toolkit - streaming build system/task runner " className={aboutStyle.logo} src="/logos/gulp.svg" />
             <img
               alt="HTML"
+              title="HTML5 - Hypertext Markup Language"
               className={aboutStyle.logo}
               src="/logos/html5.svg"
             />
-            <img alt="CSS" className={aboutStyle.logo} src="/logos/css3.svg" />
-            <img alt="Jest" className={aboutStyle.logo} src="/logos/jest.svg" />
+            <img alt="CSS" title="CSS3 - Cascading Style Sheets" className={aboutStyle.logo} src="/logos/css3.svg" />
+            <img alt="Jest" title="Jest - JavaScript Testing Framework" className={aboutStyle.logo} src="/logos/jest.svg" />
             <img
               alt="Puppeteer"
+              title="Puppeteer - Open Source Testing Library"
               className={aboutStyle.logo}
               src="/logos/puppeteer.svg"
             />
 
-            <img alt="Git" className={aboutStyle.logo} src="/logos/git.svg" />
+            <img alt="Git" title="Git - Version Control System" className={aboutStyle.logo} src="/logos/git.svg" />
             <img
               alt="GitHub"
+              title="GitHub - Git repository hosting service"
               className={aboutStyle.logo}
               src="/logos/github.svg"
             />
             <img
               alt="Firebase"
+              title="Firebase - Google platform for mobile & web apps - Authentication/Database/Storage/Hosting"
               className={aboutStyle.logo}
               src="/logos/firebase.svg"
             />
             <img
               alt="Netlify"
+              title="Netlify - Hosting"
               className={aboutStyle.logo}
               src="/logos/netlify.svg"
             />
             <img
               alt="VSCode"
+              title="Visual Studio Code - Code Editor"
               className={aboutStyle.logo}
               src="/logos/vscode.svg"
             />

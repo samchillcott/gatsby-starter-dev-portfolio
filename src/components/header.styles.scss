@@ -110,6 +110,13 @@ i {
   // }
 }
 
+@media (max-width: 320px) {
+  .pages-link {
+    font-size: 0.8rem;
+  }
+}
+
+
 .nodecor {
   text-decoration: none;
   color: black;

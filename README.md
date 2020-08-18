@@ -54,7 +54,6 @@ Portfolio site to host completed projects and resume as well as showcase skills/
 - Have a drop down or expansion to house more detailed notes on the project in the landing page not just the readme link. Or have each project take up more screen real estate and have the info inside. Scrolling > Click & Scroll.
 - Add my other projects.
 - Use icons in the "Tech used" part of the description.
-- Active page indication.
 - Enlarge gifs on click.
 - Use tooltips instead of title text for tech icon descriptions.
 - Add some interesting micro interactions.

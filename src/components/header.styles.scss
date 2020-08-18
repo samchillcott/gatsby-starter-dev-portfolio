@@ -84,6 +84,14 @@ i {
   }
 }
 
+.nodecor {
+  text-decoration: none;
+  color: black;
+  &:hover {
+    color: #9462f6;
+  }
+}
+
 // @media (max-width: 1400px) {
 //   .header-main {
 //     // padding: 0;
@@ -113,14 +121,5 @@ i {
 @media (max-width: 320px) {
   .pages-link {
     font-size: 0.8rem;
-  }
-}
-
-
-.nodecor {
-  text-decoration: none;
-  color: black;
-  &:hover {
-    color: #9462f6;
   }
 }

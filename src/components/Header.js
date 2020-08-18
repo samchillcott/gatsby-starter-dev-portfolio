@@ -55,7 +55,7 @@ const Header = () => {
         <div className="pages-link">
           <Link to="/">PORTFOLIO</Link>|<Link to="/about">ABOUT</Link>|
           <a href="Sam Chillcott Resume.pdf" target="_blank">
-            RESUME
+            RESUME &nbsp; &nbsp; &nbsp;   
           </a>
         </div>
 

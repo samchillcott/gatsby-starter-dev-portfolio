@@ -53,7 +53,7 @@ const Header = () => {
           </a>
         </div>
         <div className="pages-link">
-          <Link to="/">PORTFOLIO</Link>|<Link to="/about">ABOUT</Link>|
+          <Link to="/" activeStyle={{ color: "#a980fa" }}>PORTFOLIO </Link>|<Link to="/about" activeStyle={{ color: "#a980fa" }}>ABOUT</Link>|
           <a href="Sam Chillcott Resume.pdf" target="_blank">
             RESUME &nbsp; &nbsp; &nbsp;   
           </a>

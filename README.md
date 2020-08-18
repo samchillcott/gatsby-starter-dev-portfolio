@@ -7,7 +7,7 @@ Portfolio site to host completed projects and resume as well as showcase skills/
 - Gatsby.js
 - GraphQL
 - React.js
-- Sass.
+- Sass/CSS.
 - Netlify.
 - Subdomain hosting.
 - Built based on a starter template (via Dinesh Pandiyan and @codigoMate). Not built using a follow along tutorial.
@@ -17,9 +17,10 @@ Portfolio site to host completed projects and resume as well as showcase skills/
 - Minimalistic display of portfolio items on landing Page.
 - Gifs of each project in action.
 - Links to Live site, readme (further project notes and learnings) and source code for each project.
-- About Section including icons for skills and contact email which auto opens a precomposed subject.
+- About Section including icons for skills and contact email which auto opens a pre-composed subject.
 - Viewable and downloadable resume pdf.
 - Social Media links.
+- Descriptions of each technology on hover state for those not familiar with the logos.
 - Mobile responsive.
 - TLS certificate.
 - Hosted on personal subdomain.
@@ -55,6 +56,7 @@ Portfolio site to host completed projects and resume as well as showcase skills/
 - Use icons in the "Tech used" part of the description.
 - Active page indication.
 - Enlarge gifs on click.
+- Use tooltips instead of title text for tech icon descriptions.
 - Add some interesting micro interactions.
 - Accessibility test and revamp.
 - Performance test and tweaks.

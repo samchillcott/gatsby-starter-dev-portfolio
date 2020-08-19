@@ -26,7 +26,7 @@ const About = (props) => {
         <div className={aboutStyle.wrapper}>
           <div className={aboutStyle.aboutme}>
             <h3 className={aboutStyle.h3} className={aboutStyle.abouth3}>
-              About Me
+              ABOUT ME
             </h3>
 
             <p>Sweet balance of left & right brain.</p>
@@ -39,7 +39,7 @@ const About = (props) => {
             <p>Working remotely since 2013.</p>
           </div>
           <div className={aboutStyle.skillsContainer}>
-            <h3 className={aboutStyle.h3}>Skills</h3>
+            <h3 className={aboutStyle.h3}>SKILLS</h3>
             <img
               alt="Javascript"
               title="Javascript"
@@ -109,7 +109,7 @@ const About = (props) => {
           </div>
 
           <div className={aboutStyle.contactContainer}>
-            <h3 className={aboutStyle.h3}>Contact Me</h3>
+            <h3 className={aboutStyle.h3}>CONTACT</h3>
             <p>sam@samchillcott.com</p>
             <a
               className={aboutStyle.social}

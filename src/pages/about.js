@@ -31,7 +31,7 @@ const About = (props) => {
 
             <p>Sweet balance of left & right brain.</p>
             <p>
-              Autodidact frontend developer with a design eye and top-drawer
+              Self-managing frontend developer with a design eye and high-level
               soft skills.
             </p>
             <p>Coach specializing in productivity.</p>
@@ -58,22 +58,42 @@ const About = (props) => {
               className={aboutStyle.logo}
               src="/logos/gatsby.svg"
             />
-            <img alt="Sass" title="Sass - CSS pre-processor" className={aboutStyle.logo} src="/logos/sass.svg" />
+            <img
+              alt="Sass"
+              title="Sass - CSS pre-processor"
+              className={aboutStyle.logo}
+              src="/logos/sass.svg"
+            />
             <img
               alt="Bootstrap"
               title="Bootstrap - CSS Framework"
               className={aboutStyle.logo}
               src="/logos/bootstrap.svg"
             />
-            <img alt="Gulp" title="Gulp.js - Javascript toolkit - streaming build system/task runner " className={aboutStyle.logo} src="/logos/gulp.svg" />
+            <img
+              alt="Gulp"
+              title="Gulp.js - Javascript toolkit - streaming build system/task runner "
+              className={aboutStyle.logo}
+              src="/logos/gulp.svg"
+            />
             <img
               alt="HTML"
               title="HTML5 - Hypertext Markup Language"
               className={aboutStyle.logo}
               src="/logos/html5.svg"
             />
-            <img alt="CSS" title="CSS3 - Cascading Style Sheets" className={aboutStyle.logo} src="/logos/css3.svg" />
-            <img alt="Jest" title="Jest - JavaScript Testing Framework" className={aboutStyle.logo} src="/logos/jest.svg" />
+            <img
+              alt="CSS"
+              title="CSS3 - Cascading Style Sheets"
+              className={aboutStyle.logo}
+              src="/logos/css3.svg"
+            />
+            <img
+              alt="Jest"
+              title="Jest - JavaScript Testing Framework"
+              className={aboutStyle.logo}
+              src="/logos/jest.svg"
+            />
             <img
               alt="Puppeteer"
               title="Puppeteer - Open Source Testing Library"
@@ -81,7 +101,12 @@ const About = (props) => {
               src="/logos/puppeteer.svg"
             />
 
-            <img alt="Git" title="Git - Version Control System" className={aboutStyle.logo} src="/logos/git.svg" />
+            <img
+              alt="Git"
+              title="Git - Version Control System"
+              className={aboutStyle.logo}
+              src="/logos/git.svg"
+            />
             <img
               alt="GitHub"
               title="GitHub - Git repository hosting service"

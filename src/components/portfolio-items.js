@@ -3,7 +3,7 @@ const portfolioItems = [
     title: "Weather App",
     // sinopsis: "",
     desc:
-      "Web app displaying weather info collected from a 3rd party API. Background changes depending on certain weather conditions using conditional styling.",
+      "React app displaying weather info collected from a 3rd party API. Background changes depending on certain weather conditions using conditional styling.",
     tech:
       "Tech used: JavaScript, React, Open Weather API, Moment.js, GitHub Pages.",
     // img: "./portfolio/weather.png",
@@ -18,7 +18,7 @@ const portfolioItems = [
     title: "Coaching Q Generator",
     // sinopsis: "Coaching Question Generator",
     desc:
-      "Web app to generate coaching questions at random. Includes unit, integration & e2e tests.",
+      "React app to generate coaching questions at random. Includes unit, integration & e2e tests.",
     tech: "Tech used: JavaScript, React, Netlify, Jest, Puppeteer.",
     // img: "./portfolio/coaching.png",
     img: "./portfolio/coaching-downsized.gif",

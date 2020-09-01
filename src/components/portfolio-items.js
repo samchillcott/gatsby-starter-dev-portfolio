@@ -58,7 +58,8 @@ const portfolioItems = [
     title: "TDD & REST",
     // sinopsis: "Portfolio",
     desc: "Crude app using RESTful API, axios and JSON Placeholder.",
-    tech: "Tech used: JavaScript, axios Promise based HTTP client, Netlify.",
+    tech:
+      "Tech used: JavaScript, axios Promise based HTTP client, Netlify (TDD, jest.js).",
     img: "./portfolio/portfolio-downsized.gif",
     repo: "https://github.com/samchillcott/TDD_REST",
     live: "https://sam-tdd-rest.netlify.app/",

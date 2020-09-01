@@ -54,6 +54,17 @@ const portfolioItems = [
       "https://github.com/samchillcott/gatsby-starter-dev-portfolio/blob/master/README.md",
     idx: 4,
   },
+  {
+    title: "TDD & REST",
+    // sinopsis: "Portfolio",
+    desc: "Crude app using RESTful API, axios and JSON Placeholder.",
+    tech: "Tech used: JavaScript, axios Promise based HTTP client, Netlify.",
+    img: "./portfolio/portfolio-downsized.gif",
+    repo: "https://github.com/samchillcott/TDD_REST",
+    live: "https://sam-tdd-rest.netlify.app/",
+    readme: "https://github.com/samchillcott/TDD_REST/blob/master/README.md",
+    idx: 5,
+  },
 ]
 
 export default portfolioItems

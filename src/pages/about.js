@@ -35,7 +35,6 @@ const About = (props) => {
               soft skills.
             </p>
             <p>Coach specializing in productivity.</p>
-            <p>Keen to learn from seasoned professionals. </p>
             <p>Working remotely since 2013.</p>
           </div>
           <div className={aboutStyle.skillsContainer}>

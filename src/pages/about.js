@@ -40,16 +40,34 @@ const About = (props) => {
           <div className={aboutStyle.skillsContainer}>
             <h3 className={aboutStyle.h3}>SKILLS</h3>
             <img
+              alt="React"
+              title="React - Javascript Framework"
+              className={aboutStyle.logo}
+              src="/logos/react.svg"
+            />
+            <img
+              alt="Redux"
+              title="Redux - React Application State Management"
+              className={aboutStyle.logo}
+              src="/logos/redux.svg"
+            />
+            <img
+              alt="TypeScript"
+              title="TypeScript - language for application-scale JavaScript"
+              className={aboutStyle.logo}
+              src="/logos/typescript.svg"
+            />
+            <img
               alt="Javascript"
               title="Javascript"
               className={aboutStyle.logo}
               src="/logos/javascript.svg"
             />
             <img
-              alt="React"
-              title="React - Javascript Framework"
+              alt="Jest"
+              title="Jest - JavaScript Testing Framework"
               className={aboutStyle.logo}
-              src="/logos/react.svg"
+              src="/logos/jest.svg"
             />
             <img
               alt="Gatsby"
@@ -62,6 +80,12 @@ const About = (props) => {
               title="Sass - CSS pre-processor"
               className={aboutStyle.logo}
               src="/logos/sass.svg"
+            />
+            <img
+              alt="MaterialUI"
+              title="Material UI - React Component Library"
+              className={aboutStyle.logo}
+              src="/logos/material-ui.svg"
             />
             <img
               alt="Bootstrap"
@@ -86,12 +110,6 @@ const About = (props) => {
               title="CSS3 - Cascading Style Sheets"
               className={aboutStyle.logo}
               src="/logos/css3.svg"
-            />
-            <img
-              alt="Jest"
-              title="Jest - JavaScript Testing Framework"
-              className={aboutStyle.logo}
-              src="/logos/jest.svg"
             />
             <img
               alt="Puppeteer"

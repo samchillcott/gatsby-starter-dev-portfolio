@@ -1,7 +1,8 @@
 import React from "react"
+import { graphql } from "gatsby"
+
 import Layout from "../components/Layout"
 import aboutStyle from "./About.module.scss"
-import { graphql } from "gatsby"
 
 export const query = graphql`
   query {
@@ -35,11 +36,28 @@ const About = (props) => {
               soft skills.
             </p>
             <p>Coach specializing in productivity.</p>
-            <p>Keen to learn from seasoned professionals. </p>
             <p>Working remotely since 2013.</p>
           </div>
           <div className={aboutStyle.skillsContainer}>
             <h3 className={aboutStyle.h3}>SKILLS</h3>
+            <img
+              alt="React"
+              title="React - Javascript Framework"
+              className={aboutStyle.logo}
+              src="/logos/react.svg"
+            />
+            <img
+              alt="Redux"
+              title="Redux - React Application State Management"
+              className={aboutStyle.logo}
+              src="/logos/redux.svg"
+            />
+            <img
+              alt="TypeScript"
+              title="TypeScript - language for application-scale JavaScript"
+              className={aboutStyle.logo}
+              src="/logos/typescript.svg"
+            />
             <img
               alt="Javascript"
               title="Javascript"
@@ -47,10 +65,10 @@ const About = (props) => {
               src="/logos/javascript.svg"
             />
             <img
-              alt="React"
-              title="React - Javascript Framework"
+              alt="Jest"
+              title="Jest - JavaScript Testing Framework"
               className={aboutStyle.logo}
-              src="/logos/react.svg"
+              src="/logos/jest.svg"
             />
             <img
               alt="Gatsby"
@@ -63,6 +81,12 @@ const About = (props) => {
               title="Sass - CSS pre-processor"
               className={aboutStyle.logo}
               src="/logos/sass.svg"
+            />
+            <img
+              alt="MaterialUI"
+              title="Material UI - React Component Library"
+              className={aboutStyle.logo}
+              src="/logos/material-ui.svg"
             />
             <img
               alt="Bootstrap"
@@ -89,12 +113,6 @@ const About = (props) => {
               src="/logos/css3.svg"
             />
             <img
-              alt="Jest"
-              title="Jest - JavaScript Testing Framework"
-              className={aboutStyle.logo}
-              src="/logos/jest.svg"
-            />
-            <img
               alt="Puppeteer"
               title="Puppeteer - Open Source Testing Library"
               className={aboutStyle.logo}
@@ -112,6 +130,12 @@ const About = (props) => {
               title="GitHub - Git repository hosting service"
               className={aboutStyle.logo}
               src="/logos/github.svg"
+            />
+            <img
+              alt="BitBucket"
+              title="BitBucket - Git repository hosting service"
+              className={aboutStyle.logo}
+              src="/logos/bitbucket.svg"
             />
             <img
               alt="Firebase"

@@ -10,7 +10,6 @@ hr {
 h1 {
   font-size: 5rem;
   margin: 0.5rem 0 0 0;
-  // margin: 0;
   font-family: "Roboto", sans-serif;
 }
 
@@ -22,27 +21,16 @@ h1 {
 }
 
 .attr:hover {
-  // background-color: transparent;
   color: #9462f6;
 }
 
 .icons {
-  // padding: 0.25rem;
   a {
     color: black;
     &:visited {
       color: black;
     }
   }
-  // .fab {
-  //   -webkit-transition: -webkit-transform 0.2s ease-in-out;
-  //   transition: transform 0.2s ease-in-out;
-
-  //   &:hover {
-  //     -webkit-transform: rotate(30deg);
-  //     transform: rotate(30deg);
-  //   }
-  // }
   .fab:hover {
     color: #9462f6;
   }
@@ -55,7 +43,6 @@ i {
 }
 
 .header-main {
-  // padding: 2rem 20rem 2rem 20rem;
   text-align: center;
 }
 
@@ -92,16 +79,6 @@ i {
   }
 }
 
-// @media (max-width: 1400px) {
-//   .header-main {
-//     // padding: 0;
-//   }
-
-//   .content-main {
-//     // padding: 1rem 4rem;
-//   }
-// }
-
 @media (max-width: 900px) {
   h1 {
     font-size: 2.5rem;
@@ -112,10 +89,6 @@ i {
   .header-main {
     padding: 0;
   }
-
-  // .content-main {
-  //   padding-bottom: 5rem;
-  // }
 }
 
 @media (max-width: 320px) {

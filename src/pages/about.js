@@ -131,6 +131,12 @@ const About = (props) => {
               src="/logos/github.svg"
             />
             <img
+              alt="BitBucket"
+              title="BitBucket - Git repository hosting service"
+              className={aboutStyle.logo}
+              src="/logos/bitbucket.svg"
+            />
+            <img
               alt="Firebase"
               title="Firebase - Google platform for mobile & web apps - Authentication/Database/Storage/Hosting"
               className={aboutStyle.logo}
